@@ -104,11 +104,11 @@ document.getElementsByClassName('oldprice')[i].innerText = numericValue + 1300 +
     
 }
   document.getElementsByClassName('postTopTag')[0].style.display = "block";     
-     if (document.getElementsByTagName('u').length > 1) {
+ 
     document.getElementsByTagName('u')[0].outerHTML=document.getElementsByClassName('PostRandomTitle')[0].innerHTML;
-} else {
-  document.getElementsByClassName('blog-posts hfeed')[0].outerHTML=document.getElementsByClassName('PostRandomTitle')[0].innerHTML;
-}
+ 
+ 
+ 
     
     document.getElementsByClassName('PostRandomTitle')[0].remove();
  document.getElementById("total").innerText = numericValue  + currency ;
